@@ -4,7 +4,13 @@
   align-items: center;
   padding: 0.5rem;
   margin: 1rem 0;
-  background-color: #4b4b4b;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(63, 94, 251, 0.8855917366946778) 50%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
 .expense-item__description {

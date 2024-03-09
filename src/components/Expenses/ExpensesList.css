@@ -3,7 +3,25 @@
   padding: 0;
 }
 
-.expenses-list__fallback {
-  color: white;
-  text-align: center;
+.expense-item-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Distribute items evenly */
+  width: 100%; /* Fill available space */
+  margin-bottom: 8px; /* Adjust as needed */
+}
+
+.expense-item {
+  flex: 1; /* Make ExpenseItem fill available space */
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 8px; /* Adjust margin between ExpenseItem and button */
+}
+
+.cross-icon:hover {
+  fill: red;
 }
